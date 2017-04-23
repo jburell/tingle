@@ -12,7 +12,6 @@ const ADD_OPCODE:u8 = 0x01;
 
 #[derive(Debug)]
 pub struct Add {
-    opcode: u8,
     op_1: u8,
     op_2: u8,
 }
@@ -20,7 +19,6 @@ pub struct Add {
 impl Add {
     fn new(op_1: u8, op_2: u8) -> Add {
         Add {
-            opcode: ADD_OPCODE,
             op_1: op_1,
             op_2: op_2,
         }

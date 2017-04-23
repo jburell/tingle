@@ -1,6 +1,4 @@
-mod operations;
-
-use self::operations::{Operation, Execute};
+use super::operations::{Operation, Execute};
 
 pub struct Engine<'a> {
     instructions: &'a [u32],

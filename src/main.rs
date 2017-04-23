@@ -1,6 +1,6 @@
-mod engine;
+mod runtime;
 
-use engine::Engine;
+use runtime::engine::Engine;
 
 fn main() {
     let program = [
